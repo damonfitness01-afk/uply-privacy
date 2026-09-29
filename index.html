@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uply — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #15161c; --muted: #5b5f72; --line: #e3e4ea;
+    --accent: #2b3fe0; --card: #f6f7fb;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0c0d13; --fg: #edeef4; --muted: #a2a6ba; --line: #242632;
+            --accent: #8f9cff; --card: #15171f; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 42rem; margin: 0 auto; padding: 3rem 16px 5rem; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .25rem; letter-spacing: -.02em; }
+  h2 { font-size: 1.25rem; margin: 2.5rem 0 .5rem; letter-spacing: -.01em; }
+  h3 { font-size: 1rem; margin: 1.5rem 0 .25rem; }
+  p, li { color: var(--fg); }
+  .sub { color: var(--muted); margin: 0 0 2rem; }
+  .lede { font-size: 1.1rem; background: var(--card); border-left: 3px solid var(--accent);
+          padding: 1rem 1.25rem; border-radius: 0 10px 10px 0; }
+  ul { padding-left: 1.2rem; }
+  li { margin: .35rem 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .6rem .5rem; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--line);
+           color: var(--muted); font-size: .9rem; }
+  code { background: var(--card); padding: .1em .35em; border-radius: 4px; font-size: .9em; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Uply — Privacy Policy</h1>
+<p class="sub">Last updated 28 September 2026</p>
+
+<p class="lede">Uply does not collect your data. The app has no user accounts, no analytics, no
+advertising and no trackers, and it is built without permission to use the internet at all — so it
+cannot send anything anywhere, even by mistake.</p>
+
+<p>Uply is an alarm clock that you switch off by exercising in front of your phone's camera. It is
+made by Bits &amp; Algorithms in Cape Town, South Africa. This policy explains exactly what the app
+does with information, and it is written to be checkable rather than reassuring.</p>
+
+<h2>Your camera</h2>
+
+<p>When an alarm rings, Uply uses your camera to count your repetitions. This is the most sensitive
+thing the app does, so to be precise about it:</p>
+
+<ul>
+  <li>The camera runs <strong>only</strong> while an alarm mission or a practice session is on
+      screen. It is off at every other time.</li>
+  <li>Every frame is analysed <strong>on your phone</strong>, by software that runs entirely on the
+      device. Nothing is uploaded, because the app has no ability to upload anything.</li>
+  <li><strong>No image, video or frame is ever saved.</strong> Each frame is examined for the
+      position of your body and then discarded, within a fraction of a second.</li>
+  <li>The body positions themselves are not saved either. Only the <em>result</em> is kept — that a
+      repetition counted.</li>
+  <li>You can choose to see yourself as a stylised image or as a plain silhouette instead of the
+      live camera picture. That changes what is shown on screen; in every mode the analysis works
+      the same way and nothing is stored.</li>
+</ul>
+
+<h2>What Uply stores on your phone</h2>
+
+<p>All of this is kept on your device, in the app's own private storage:</p>
+
+<ul>
+  <li>Your alarms — times, days, which exercise, how many repetitions, which sound.</li>
+  <li>A record of each morning: the date, the exercise, repetitions done against the target, how
+      long it took you to start moving and to finish, and whether the alarm was completed, stopped
+      or missed.</li>
+  <li>Anything you choose to add: how a morning felt, and an optional mood rating.</li>
+  <li>Your settings, your points, your streak and your awards.</li>
+</ul>
+
+<h2>The one way data can leave your phone</h2>
+
+<p>We want to be straightforward about this, because "nothing ever leaves your device" would not be
+strictly true.</p>
+
+<p>On Android 9 and later, Uply's alarms, morning history and settings are included in
+<strong>your own Google account backup</strong>, if you have Android's backup feature switched on.
+That is a feature of Android, between you and Google — the data goes to your Google account, not to
+us. It is encrypted on your device with a key derived from your screen lock before it is uploaded,
+so neither we nor Google can read it. Camera images are never involved, because they are never
+saved in the first place.</p>
+
+<p>If you would rather that did not happen, turn off <em>Back up by Google One</em> (or <em>Back
+up my data</em>) in your phone's Settings. Uply works exactly the same either way. On Android 8
+this backup is disabled entirely, because that version cannot encrypt it in the way we require.</p>
+
+<h2>Permissions, and why each one is needed</h2>
+
+<table>
+  <tr><th>Permission</th><th>Why Uply needs it</th></tr>
+  <tr><td>Camera</td><td>To count your repetitions during a mission. Never used at any other time.</td></tr>
+  <tr><td>Alarms &amp; reminders</td><td>To ring at the exact minute you set, even when the phone is idle.</td></tr>
+  <tr><td>Full-screen notifications</td><td>To show the alarm screen over your lock screen when it rings.</td></tr>
+  <tr><td>Notifications</td><td>For the ringing alarm, warnings that tomorrow's alarm might not ring, and the optional evening check-in.</td></tr>
+  <tr><td>Run at startup</td><td>To restore your alarms after the phone restarts, so a reboot overnight cannot make you oversleep.</td></tr>
+  <tr><td>Foreground service, wake lock, vibrate, audio settings</td><td>To keep the alarm ringing, wake the screen, and raise the alarm volume for the ring.</td></tr>
+</table>
+
+<p>Uply does <strong>not</strong> request internet access, location, contacts, microphone, storage,
+or the list of apps on your phone.</p>
+
+<h2>Children</h2>
+
+<p>Uply is not directed at children and we do not knowingly collect information from anyone. As the
+app collects nothing and sends nothing, there is no children's data for us to hold.</p>
+
+<h2>Your control over your data</h2>
+
+<p>Because everything is on your device, you hold it directly. Inside the app, under
+<em>Me → Privacy &amp; data</em>, you can:</p>
+
+<ul>
+  <li><strong>Export everything</strong> Uply has stored, as a readable JSON file you save wherever
+      you choose.</li>
+  <li><strong>Delete everything</strong> — alarms, history and settings — permanently, after a
+      confirmation.</li>
+</ul>
+
+<p>Uninstalling the app also removes all of it from your phone. If you have Android backup switched
+on, a copy may remain in your Google account until you remove it there.</p>
+
+<p>Under South Africa's Protection of Personal Information Act and, for users in Europe, the
+General Data Protection Regulation, you have rights of access, correction, deletion and
+portability. We can honour them only in the sense described above: we hold no copy of your
+information, so there is nothing for us to look up, hand over or erase on your behalf.</p>
+
+<h2>Sharing and selling</h2>
+
+<p>We do not share, sell, rent or transfer your information to anyone, because we do not have it.
+There are no advertising networks, no analytics providers and no third-party software development
+kits that transmit data in the app.</p>
+
+<h2>Feedback you choose to send</h2>
+
+<p>The app has a <em>Send feedback</em> option. If you use it, Uply prepares a message containing
+your phone model, Android version, app version and a summary of your recent mornings, and hands it
+to whichever app you choose — your email or messaging app. Uply does not send it. You see the whole
+message first and can edit or delete any part of it before sending. No camera images are included,
+and none can be, as they are never saved.</p>
+
+<h2>Changes to this policy</h2>
+
+<p>If this policy changes we will update the date at the top of this page, and material changes
+will be described in the app's release notes.</p>
+
+<h2>Contact</h2>
+
+<p>Questions about this policy or about Uply: <a href="mailto:Damonfitness01@gmail.com">Damonfitness01@gmail.com</a><br>
+Bits &amp; Algorithms, Cape Town, South Africa.</p>
+
+<footer>
+  Uply — Move to Wake. This policy describes the app as published; you can verify the permission
+  claims yourself on the app's Play Store listing under <code>Permissions</code>.
+</footer>
+
+</main>
+</body>
+</html>
